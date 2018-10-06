@@ -67,6 +67,7 @@ var marcioAge = 33
 var carlosAge = 32
 var foggyAge = 31
 var whoIsOlder = 0
+var sameAge = 0
 
 if isFoggyHungry == true && isCarlosHungry == true && isMarcioHungry == true {
     print ("Let's have lunch")
@@ -80,13 +81,16 @@ if isFoggyHungry == true && isCarlosHungry == true && isMarcioHungry == true {
     } else if foggyAge > carlosAge && foggyAge > marcioAge {
         whoIsOlder = foggyAge
         print("Jean Paul is older and buys the beer")
+    } else if ((foggyAge == marcioAge) || (foggyAge == carlosAge) || (marcioAge == carlosAge) {
+        sameAge
     } else {
-        print("Everyone buys their own beer")
+       print("Everyone buys their own beer")
     }
     print(whoIsOlder)
 }
 
 // What happens if there are two older people of the same age
+
 
 
 
